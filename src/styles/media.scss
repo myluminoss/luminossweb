@@ -1,0 +1,850 @@
+@media screen and (min-width: 375px) and (max-width:650px) {
+    .root {
+        position: relative;
+
+        .leftNav {
+            width: 131px !important;
+            position: absolute;
+            height: 100%;
+            left: -131px;
+            top: 0;
+            z-index: 070;
+
+            .mask {
+                display: none !important;
+            }
+
+            .Left_pad25__PY2FV {
+                padding: 10px;
+            }
+
+            .navIcons {
+                .navIconList {
+                    height: 30px;
+
+                    .menuImg {
+                        width: 14px;
+                        height: 14px;
+                    }
+
+                    .right-logo {
+                        width: 88px;
+                        height: 14px;
+                        margin-left: 7px;
+                    }
+                }
+
+                .Left_ul1__jtA0x {
+                    margin-top: 20px;
+
+                    li {
+                        img {
+                            width: 11px;
+                            height: 11px;
+                            margin-right: 8;
+                        }
+
+                        padding-left:16px;
+                        width: 111px;
+                        height: 29px;
+                        font-size: 11px;
+                    }
+                }
+
+                .chats {
+                    .chat-title {
+                        font-size: 11px;
+                    }
+
+                    .chat-list {
+                        .chat-item {
+                            width: 111px;
+                            height: 29px;
+                            padding-left: 16px;
+
+                            .icon {
+                                width: 13px;
+                                height: 13px;
+                                margin-right: 7px;
+                            }
+
+                            .text {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+
+                .create-agent {
+                    width: 111px;
+                    height: 29px;
+
+                    .text {
+                        font-size: 11px;
+                    }
+
+                    .icon {
+                        width: 14px;
+                        height: 11px;
+                    }
+                }
+
+                .links {
+
+                    .icon1,
+                    .icon2,
+                    .icon3 {
+                        transform: scale(0.7);
+                    }
+                }
+
+                .myInfo {
+                    .info {
+                        padding-left: 0;
+
+                        .header {
+                            width: 28px;
+                            height: 28px;
+                        }
+
+                        .name {
+                            font-size: 11px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rightContent {
+            width: 100%;
+
+            .rewards_content {
+                height: calc(100% - 50px);
+                overflow-y: scroll;
+
+                .rewards_f1__Hhz88 {
+                    height: inherit;
+                    padding-bottom: 100px;
+                }
+            }
+
+            .topNav {
+                height: 50px;
+
+                .Header_blackHeader__46Gtf {
+                    visibility: hidden;
+                }
+
+                .Top_mobileHeader__Oe32f {
+                    display: block !important;
+                }
+
+                .Header_header__G9Trc {
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+
+                    .menuIcon {
+                        margin-left: 22px;
+                        margin-right: 22px;
+
+                        .menuImg {
+                            // width: 23px;
+                            // height: 22px;
+                            // transform: scale(1.8);
+                        }
+                    }
+
+                    .Header_blackHeader__46Gtf {
+                        height: inherit;
+                    }
+
+                    .entity-nav {
+                        .entity {
+                            line-height: 32px;
+                            border-radius: 28px;
+                            width: 298px;
+
+                            .left-text {
+                                font-size: 12px;
+
+                            }
+
+                            .right-text {
+                                font-size: 10px;
+                            }
+
+                            .entityMenu {
+                                top: 38px;
+                                width: inherit;
+                                border-radius: 9px;
+
+                                .title {
+                                    line-height: 32px;
+                                    height: 32px;
+                                    padding-left: 10px;
+                                }
+
+                                .entityItem {
+                                    padding: 7px 10px;
+
+                                    .check {
+                                        width: 10px;
+                                        height: 7px;
+                                    }
+                                }
+
+                                .title {
+                                    font-size: 10px;
+                                }
+
+                                .entityItem {
+                                    h3 {
+                                        font-size: 10px;
+                                        line-height: 10px;
+                                    }
+
+                                    h5 {
+                                        font-size: 7px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .Footer_foot__Dhg3y {
+                display: none;
+
+                .Footer_w420__a1tJH {
+                    .Footer_jus__4WTNr li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .content {
+                height: calc(100%);
+
+                .chat-content {
+                    .tips {
+                        display: none;
+                    }
+
+                    .tips2 {
+                        visibility: visible;
+                        width: 384px;
+                        font-size: 14px;
+                        line-height: 18px;
+                        height: 60px;
+                        font-weight: 600;
+                        margin: 0 auto 20px;
+                        text-align: center;
+                    }
+
+                    .chatList {
+                        .history {
+
+                            .tips2 {
+                                display: block;
+                            }
+
+                            .history-list {
+                                height: 97%;
+                            }
+
+                            .history-list2 {
+                                width: 389px;
+
+                                .history-item {
+                                    margin: 6px 0;
+
+
+                                    .item-header {
+                                        width: 34px;
+                                        height: 34px;
+                                        border-radius: 50%;
+                                        margin-right: 13px;
+                                    }
+
+                                    .item-content {
+                                        border-radius: 6px;
+                                        height: 30px;
+                                        font-size: 12px;
+                                        padding: 0 10px;
+                                        line-height: 30px;
+                                    }
+
+
+                                }
+
+                                .my {
+                                    .item-header {
+                                        margin-left: 13px;
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+
+                            .chatInput {
+                                // margin-bottom: 50px;
+                                width: 389px;
+                                height: 38px;
+
+                                .inputEx {
+                                    height: 38px;
+                                    line-height: 38px;
+                                    font-size: 12px;
+                                    font-family: "InstrumentSans-Medium";
+
+                                    &::placeholder {
+                                        font-size: 12px;
+                                    }
+                                }
+
+                                .loading {
+                                    width: 15px;
+                                    height: 15px;
+                                    animation: rotate 3s linear infinite;
+                                }
+                            }
+
+                            .iconBox {
+                                .icon {
+                                    width: 12px;
+                                    height: 9px;
+                                }
+                            }
+                        }
+
+                        .roleSize {
+                            width: 815*0.7px;
+                            height: 905*0.7px;
+                            visibility: hidden;
+
+                        }
+
+                        .leftRole {
+                            left: -50px;
+                            top: 538px;
+
+                            .roleInfo {
+                                left: 40%;
+                                top: 77%;
+                                width: 259px;
+
+                                .nameList {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .rightRole {
+                            top: 570px;
+                            right: -109px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width:750px) {
+    .root {
+        position: relative;
+
+        .leftNav {
+            left: -190px;
+            height: 100%;
+            z-index: 55555;
+            position: absolute;
+        }
+
+        .rightContent {
+
+            .topNav {
+                height: 88px;
+
+                .Header_blackHeader__46Gtf {
+                    visibility: hidden;
+                }
+
+                .Top_mobileHeader__Oe32f {
+                    display: block !important;
+                }
+
+                .Header_header__G9Trc {
+                    height: 88px;
+                    display: flex;
+                    align-items: center;
+
+                    .menuIcon {
+                        margin-left: 36px;
+                        margin-right: 40px;
+
+                        .menuImg {
+                            width: 40px;
+                            height: 38px;
+                            // transform: scale(1.8);
+                        }
+                    }
+
+                    .Header_blackHeader__46Gtf {
+                        height: inherit;
+                    }
+
+                    .entity-nav {
+                        .entity {
+                            line-height: 56px;
+                            border-radius: 28px;
+                            width: 520px;
+
+                            .entityMenu {
+                                top: 69px;
+                                width: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .Footer_foot__Dhg3y {
+                .Footer_w420__a1tJH {
+                    .Footer_jus__4WTNr li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .content {
+                height: calc(100% - 88px);
+
+                .chat-content {
+                    .chatList {
+                        .history {
+                            .history-list {
+                                height: 97%;
+                            }
+
+                            .history-list2 {
+                                width: 700px;
+                            }
+
+                            .chatInput {
+                                // margin-bottom: 50px;
+                                width: 700px;
+                            }
+                        }
+
+                        .roleSize {
+                            width: 815*0.7px;
+                            height: 905*0.7px;
+                            visibility: hidden;
+
+                        }
+
+                        .leftRole {
+                            left: -50px;
+                            top: 538px;
+
+                            .roleInfo {
+                                left: 40%;
+                                top: 77%;
+                                width: 259px;
+
+                                .nameList {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .rightRole {
+                            top: 570px;
+                            right: -109px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 750px) and (max-width:850px) {
+    .root {
+        // .leftNav {
+        //     width: 50px !important;
+
+        //     .mask {
+        //         display: block !important;
+        //     }
+        // }
+
+        .topNav {
+            .entity-nav {
+                .entity {
+                    width: 400px;
+                }
+            }
+
+            .Top_right__Nkxnr {
+                .Top_loginBtn {
+                    padding: 0 15px;
+                }
+            }
+        }
+
+        .rightContent {
+            .Footer_foot__Dhg3y {
+                .Footer_w420__a1tJH {
+                    .Footer_jus__4WTNr li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .content {
+                .chat-content {
+                    .chatList {
+                        .history {
+                            .history-list2 {
+                                width: 640px;
+                            }
+
+                            .chatInput {
+
+                                width: 640px;
+                            }
+                        }
+
+                        .roleSize {
+                            width: 815*0.7px;
+                            height: 905*0.7px;
+                            visibility: hidden;
+
+                        }
+
+                        .leftRole {
+                            left: -50px;
+                            top: 538px;
+
+                            .roleInfo {
+                                left: 40%;
+                                top: 77%;
+                                width: 259px;
+
+                                .nameList {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .rightRole {
+                            top: 570px;
+                            right: -109px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media screen and (min-width: 750px) and (max-width:850px) {}
+
+@media screen and (min-width: 850px) and (max-width:950px) {
+    .root {
+        .rightContent {
+            .Footer_foot__Dhg3y {
+                .Footer_w420__a1tJH {
+                    .Footer_jus__4WTNr li {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .content {
+                .chat-content {
+                    .chatList {
+                        .history {
+
+                            .tips {}
+
+                            .history-list2 {
+                                width: 640px;
+                            }
+
+                            .chatInput {
+
+                                width: 640px;
+                            }
+                        }
+
+                        .roleSize {
+                            width: 815*0.7px;
+                            height: 905*0.7px;
+                            visibility: hidden;
+
+                        }
+
+                        .leftRole {
+                            left: -50px;
+                            top: 538px;
+
+                            .roleInfo {
+                                left: 40%;
+                                top: 77%;
+                                width: 259px;
+
+                                .nameList {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .rightRole {
+                            top: 570px;
+                            right: -109px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width:1180px) {
+    .root {
+        .rightContent {
+            .content {
+                .chat-content {
+                    .chatList {
+                        .history {
+
+                            .tips {
+                                width: 740px;
+                                font-size: 24px;
+                                margin-bottom: 20px;
+                            }
+
+                            .tips2 {
+                                display: none;
+                            }
+
+                            .history-list2 {
+                                width: 640px;
+                            }
+
+                            .chatInput {
+
+                                width: 610px;
+                                height: 52px;
+
+                                .inputEx {
+                                    height: 52px;
+                                    font-family: "InstrumentSans-Medium";
+
+                                }
+                            }
+                        }
+
+                        .roleSize {
+                            width: 815*0.7px;
+                            height: 905*0.7px;
+                            visibility: hidden;
+
+                        }
+
+                        .leftRole {
+                            left: -50px;
+                            top: 538px;
+
+                            .roleInfo {
+                                left: 40%;
+                                top: 77%;
+                                width: 259px;
+
+                                .nameList {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .rightRole {
+                            top: 570px;
+                            right: -109px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1180px) and (max-width:1480px) {
+    .root {
+        .rightContent {
+            .content {
+                .chat-content {
+                    .chatList {
+                        .history {
+                            .history-list2 {
+                                width: 640px;
+                            }
+
+                            .chatInput {
+
+                                width: 640px;
+                            }
+
+                            .tips2 {
+                                display: none;
+                            }
+
+                        }
+
+                        .roleSize {
+                            width: 815*0.7px;
+                            height: 905*0.7px;
+                        }
+
+                        .leftRole {
+                            left: -50px;
+                            top: 538px;
+
+                            .roleInfo {
+                                left: 40%;
+                                top: 77%;
+                                width: 259px;
+
+                                .nameList {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .rightRole {
+                            top: 570px;
+                            right: -109px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1480px) and (max-width:1580px) {
+    // .leftNav {
+    //     width: 50px !important;
+
+    //     .mask {
+    //         display: block !important;
+    //     }
+    // }
+
+    .root {
+        .rightContent {
+            .content {
+                .chat-content {
+                    .chatList {
+                        .leftRole {
+                            left: -50px;
+
+                            .roleInfo {
+                                left: 30%;
+                            }
+                        }
+
+                        .rightRole {
+                            right: -160px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1580px) and (max-width:1680px) {
+    .root {
+        .rightContent {
+            .content {
+                .chat-content {
+                    .chatList {
+                        .leftRole {
+                            left: -100px;
+
+                            .roleInfo {
+                                left: 35%;
+                            }
+                        }
+
+                        .rightRole {
+                            right: -160px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1680px) and (max-width:1920px) {
+    .root {
+        .rightContent {
+            .content {
+                .chat-content {
+                    .chatList {
+                        .leftRole {
+                            left: -80px;
+
+                            .roleInfo {
+                                left: 38%;
+                            }
+                        }
+
+                        .rightRole {
+                            right: -150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    .root {
+        .rightContent {
+            .content {
+                .chat-content {
+                    .chatList {
+                        .leftRole {
+                            // left: 130px;
+
+                            .roleInfo {
+                                // left: 38%;
+                            }
+                        }
+
+                        .rightRole {
+                            // right: 160px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

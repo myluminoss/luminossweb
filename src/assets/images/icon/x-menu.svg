@@ -1,0 +1,19 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_7674_5721)">
+<rect width="20" height="20" rx="10" fill="white"/>
+</g>
+<g clip-path="url(#clip0_7674_5721)">
+<path d="M12.5601 5.91211H13.9264L10.9415 9.32362L14.453 13.9659H11.7035L9.55005 11.1504L7.086 13.9659H5.71891L8.91153 10.3169L5.54297 5.91211H8.36222L10.3088 8.48561L12.5601 5.91211ZM12.0806 13.1482H12.8377L7.95085 6.68693H7.13845L12.0806 13.1482Z" fill="#2C1E1E"/>
+</g>
+<defs>
+<filter id="filter0_b_7674_5721" x="-79.6" y="-79.6" width="179.2" height="179.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="39.8"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7674_5721"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7674_5721" result="shape"/>
+</filter>
+<clipPath id="clip0_7674_5721">
+<rect width="9.72" height="9.72" fill="white" transform="translate(5.13867 5.14062)"/>
+</clipPath>
+</defs>
+</svg>
