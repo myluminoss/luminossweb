@@ -1,0 +1,34 @@
+{
+  "name": "myappex",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.98.0",
+    "@types/node": "^22.10.1",
+    "axios": "^1.7.9",
+    "buffer": "^6.0.3",
+    "mitt": "^3.0.1",
+    "moment": "^2.30.1",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "swiper": "^11.1.15",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
