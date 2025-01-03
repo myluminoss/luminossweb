@@ -24,7 +24,7 @@ const routes: Array<any> = [
         component: Discover,
     },
     {
-        path: "/Details",
+        path: "/Details/:id",
         component: Details,
     },
     {
@@ -32,7 +32,7 @@ const routes: Array<any> = [
         component: Buy,
     },
     {
-        path: "/Entity",
+        path: "/Entity/:id",
         component: Entity,
     },
     {

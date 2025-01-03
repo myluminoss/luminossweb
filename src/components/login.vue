@@ -187,14 +187,20 @@ const onClickWalletItem = async (item: dataType.IWalletItem) => {
     }
     curWalletIndex.value = item.index;
     curWalletItem.value = item;
-    if (item.index > 1) {
-        sWallet.destoryWallet();
-        sWallet.initWallet(item.title)
-        await sWallet.loginWallet()
-        userEx.chinaType = "Solana";
-        await userEx.login();
-        await userEx.getUserInfo();
-        await userEx.getTaskList()
+    if (item.index > 0) {
+
+        let loginBool = await sWallet.loginEx();
+        console.log(loginBool)
+        if (loginBool) {
+            await userEx.login();
+        }
+
+        // sWallet.destoryWallet();
+        // sWallet.initWallet(item.title)
+        // await sWallet.loginWallet()
+        // await userEx.login();
+        // await userEx.getUInfo();
+        // await userEx.getTaskList()
         return;
     }
 

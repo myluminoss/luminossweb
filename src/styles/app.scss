@@ -1095,7 +1095,7 @@
                 }
 
                 .tips {
-                    width: 940px;
+                    width: 1140px;
                     font-size: 37px;
                     color: #FFFFFF;
                     font-family: "InstrumentSans-Bold";
@@ -1272,7 +1272,7 @@
 
                 .leftRole {
                     left: -10px;
-                    top: 270px;
+                    bottom: -35px;
 
 
                     &:hover {
@@ -1282,7 +1282,7 @@
                 }
 
                 .rightRole {
-                    top: 270px;
+                    bottom: -35px;
 
                     right: -10px;
                     z-index: 2;

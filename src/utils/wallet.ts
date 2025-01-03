@@ -63,7 +63,6 @@ class WalletEx {
             emitter.emit(EEvent.notWallet)
             return;
         }
-        console.log('==============')
         try {
             await this.getMyAccounts();
             if (this.myAddress == "" || this.myAddress == null) {
@@ -175,6 +174,7 @@ class WalletEx {
         localStorageUtil.setItem("signature", signature)
         return signature;
     }
+
 
 
     async getBaseContract() {

@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 import localStorageUtil from '../utils/localStorage';
 
-const HTTPBaseURL = 'https://api.luminoss.ai';
+const HTTPBaseURL = 'https://srv.luminoss.ai';
 const instance: AxiosInstance = axios.create({
     baseURL: HTTPBaseURL, // 
     timeout: 10000 // 
@@ -11,7 +11,7 @@ instance.interceptors.request.use(
     (config: any) => {
         const token = localStorageUtil.getItem('accessToken');
         if (token) {
-            config.headers.Authorization = `${token}`;
+            config.headers.Authorization = `Bearer ${token}`;
         }
         return config;
     },

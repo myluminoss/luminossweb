@@ -3,12 +3,18 @@ import { onMounted } from "vue";
 import leftNav from "./LeftNav.vue"
 import topNav from "./TopNav.vue"
 import pageFooter from "./Footer.vue"
-import walletEx from "./utils/wallet";
-import sWallet from "./utils/sWallet";
+import sWallet from './utils/sWallet';
+import userEx from "./data/user";
 
 
 onMounted(() => {
-    sWallet.getMyAccounts()
+    // sWallet.getMyAccounts()
+
+    // sWallet.initAccount();
+    // console.log(sWallet.isInit)
+    // if (!sWallet.isInit) {
+    //     userEx.login();
+    // }
 })
 </script>
 

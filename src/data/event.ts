@@ -12,6 +12,9 @@ export enum EEvent {
     updateTaskList = "updateTaskList",
 
     userLoginOut = "userLoginOut",
+    userLogin = "userLogin",
+
+
     showSelectWallet = 'showSelectWallet',
     userCencalWallet = "userCencalWallet",
 

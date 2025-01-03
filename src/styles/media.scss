@@ -2,6 +2,8 @@
     .root {
         position: relative;
 
+
+
         .leftNav {
             width: 131px !important;
             position: absolute;
@@ -119,6 +121,108 @@
         .rightContent {
             width: 100%;
 
+            .discover-content {
+                padding: 10px; 
+                padding-bottom: 50px;
+                height: 100%;
+
+                .discover-list {
+                    // display: none;
+                    display: block;
+                    // width: 680px;
+                    width: 100%;
+
+                    .discover-item {
+
+                        // margin: 17px 35px;  
+                        // margin: 18px 7px;
+                        margin: 0;
+                        width: 49%;
+                        height: 260px;
+                        display: inline-block;
+                        margin-bottom: 16px;
+
+                        .cover-box {
+                            width: 100%;
+                            background: #fff8ee;
+
+                            .cover {
+                                width: 100%;
+                                height: 152px;
+                            }
+
+                            .tagList {
+                                margin-left: 8px;
+
+                                .tagItem {
+                                    padding: 2 6 px;
+                                    font-size: 8px;
+                                }
+                            }
+                        }
+                        .info {
+                            padding: 0 11px;
+                            height: 95px;
+                            .progress{
+                                margin-top: 5px;
+                            }
+                            .title {
+
+                                font-size: 12px;
+                            }
+                            .head{
+                                .headImg{
+                                    width: 24px;
+                                    height: 24px;
+                                }
+                                .headInfo{
+                                    .name{
+                                        font-size: 10px;
+                                        line-height: 10px;
+
+                                    }
+                                    .dosc{
+                                        font-size: 8px;
+                                        line-height: 8px;
+                                    }
+                                }
+                            }
+                            .price{
+                                margin-top: 5px;
+                                .left{
+                                    .left-t{
+                                        font-size: 8px;
+                                    }
+                                    .left-f{
+                                        margin-top: 0;
+                                        font-size: 10px;
+                                    }
+                                }
+                                .radio{
+                                    font-size: 8px;
+                                }
+                            }
+                            .cound{
+                                margin-top: 5px;
+                                .l,.r{
+                                    
+                                    font-size: 8px !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .discover-item:nth-child(1n) {
+                        margin-right: 2%;
+
+                    }
+
+                    .discover-item:nth-child(2n) {
+                        margin-right: 0;
+                    }
+                }
+            }
+
             .rewards_content {
                 height: calc(100% - 50px);
                 overflow-y: scroll;
@@ -235,10 +339,10 @@
 
                     .tips2 {
                         visibility: visible;
-                        width: 384px;
-                        font-size: 14px;
-                        line-height: 18px;
-                        height: 60px;
+                        width: auto;
+                        font-size: 16px;
+                        line-height: 26px;
+                        height: auto;
                         font-weight: 600;
                         margin: 0 auto 20px;
                         text-align: center;
@@ -364,6 +468,22 @@
             position: absolute;
         }
 
+
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    display: none;
+
+                    // width: 680px;
+                    .discover-item {
+                        // margin: 17px 35px;  
+                        // margin: 18px 7px;
+
+                    }
+                }
+            }
+        }
+
         .rightContent {
 
             .topNav {
@@ -485,6 +605,21 @@
         //     }
         // }
 
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    display: none;
+
+                    // width: 680px;
+                    .discover-item {
+                        // margin: 17px 35px;  
+                        // margin: 18px 7px;
+
+                    }
+                }
+            }
+        }
+
         .topNav {
             .entity-nav {
                 .entity {
@@ -512,6 +647,14 @@
                 .chat-content {
                     .chatList {
                         .history {
+                            .tips {
+                                width: 660px;
+                                font-size: 22px;
+                                line-height: 40px;
+                                margin-bottom: 20px;
+                                height: auto;
+                            }
+
                             .history-list2 {
                                 width: 640px;
                             }
@@ -574,7 +717,11 @@
                     .chatList {
                         .history {
 
-                            .tips {}
+                            .tips {
+                                width: 740px;
+                                font-size: 24px;
+
+                            }
 
                             .history-list2 {
                                 width: 640px;
@@ -755,6 +902,27 @@
     .root {
         .rightContent {
             .content {
+
+                // .discover-content{
+                //     .discover-list{
+                //         // display: none;
+                //         width: 1380px;
+                //         .discover-item{
+                //             margin: 20px 27px;   
+                //         }
+                //     }
+                // }
+                .discover-content {
+                    .discover-list {
+                        display: none;
+                        // width: 1380px;
+                        // .discover-item{
+                        //     margin: 20px 27px;   
+                        // }
+                    }
+                }
+
+
                 .chat-content {
                     .chatList {
                         .leftRole {
@@ -780,6 +948,16 @@
     .root {
         .rightContent {
             .content {
+                .discover-content {
+                    .discover-list {
+                        display: none;
+                        // width: 1380px;
+                        // .discover-item{
+                        //     margin: 20px 27px;   
+                        // }
+                    }
+                }
+
                 .chat-content {
                     .chatList {
                         .leftRole {
@@ -800,9 +978,160 @@
     }
 }
 
+@media screen and (min-width: 680px) and (max-width:980px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 680px;
+
+                    .discover-item {
+                        // margin: 17px 35px;  
+                        // margin: 18px 7px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width:1200px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 680px;
+
+                    .discover-item {
+                        // margin: 17px 35px;  
+                        // margin: 18px 7px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1120px) and (max-width:1200px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 880px;
+
+                    .discover-item {
+                        // margin: 17px 35px;  
+                        margin: 18px 7px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1440px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    // width: 1080px;
+                    width: auto;
+
+                    .discover-item {
+                        // margin: 17px 35px;  
+                        margin: 18px 7px;
+                        width: 275px;
+                        height: 403px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width:1580px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 1080px;
+
+                    .discover-item {
+                        margin: 17px 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1580px) and (max-width:1700px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 1280px;
+
+                    .discover-item {
+                        margin: 17px 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width:1810px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 1500px;
+
+                    .discover-item {
+                        margin: 17px 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1810px) and (max-width:1920px) {
+    .root {
+        .rightContent {
+            .discover-content {
+                .discover-list {
+                    // display: none;
+                    width: 1580px;
+
+                    .discover-item {
+                        margin: 20px 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 1680px) and (max-width:1920px) {
     .root {
         .rightContent {
+            .discover-content {}
+
+
+            .details-content {}
+
             .content {
                 .chat-content {
                     .chatList {
@@ -820,14 +1149,40 @@
                     }
                 }
             }
+
+
         }
     }
 
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) and (max-width:2050px) {
     .root {
         .rightContent {
+
+
+            .details-content {
+                .d-intro {
+                    // .intro-img {
+                    //     width: 400px;
+                    //     height: 400px;
+                    // }
+
+                    // .intro-text {
+                    //     .intro-title {
+                    //         padding-top: 16px;
+                    //         font-weight: 600;
+                    //         font-size: 42px;
+                    //         line-height: 38px;
+                    //         color: #FFFFFF;
+                    //         margin-bottom: 32px;
+                    //     }
+                    // }
+                }
+
+            }
+
+
             .content {
                 .chat-content {
                     .chatList {
